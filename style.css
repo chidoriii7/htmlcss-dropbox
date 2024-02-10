@@ -1,3 +1,23 @@
+/* classi per testi */
+
+.textfix {
+    font-size: 18px;
+    padding: 20px;
+    gap: 30px;
+}
+
+.bluebox {
+    background-color: #0061FF;
+    padding: 6px 10px;
+    color: white;
+}
+
+.buttonfix {
+    text-align: center;
+    display: inline-block;
+}
+/* regole globali */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +25,7 @@
 }
 
 body{
-    background-color: black;
+    
 }
 
 img {
@@ -21,7 +41,7 @@ a {
 
 .headerbar {
     background-color: white;
-    width: 100vw;
+    width: 100%;
 }
 
 .container {
@@ -40,19 +60,192 @@ a {
     align-items: center;
 }
 
-/* classi per testi */
+/* main */
 
-.textfix {
-    font-size: 18px;
-    padding: 20px;
-    gap: 30px;
+/* workplace */
+
+.workplace {
+    background-color: #B4D0E7;
+    padding: 90px 150px 30px;
 }
 
-.bluebox {
-    background-color: #0061FF;
-    padding: 6px 10px;
-    color: white;
+.workplace-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col4 {
+    width: calc(4 * 100% / 12);
+    font-size: 26px;
+}
+
+.col8 {
+    width: calc(8 * 100% / 12);
+}
+
+.workplace .bigcontainer + .bigcontainer {
+    margin-top: 50px;
+}
+
+.workplace-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 20px;
+}
+
+.workplace-text i{
+    font-size: 50px;
+    margin-top: auto;
+}
+
+/* plan choice */
+
+/* dropbox-business */
+
+
+.business-container {
+    max-width: 55%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.business-title {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.business-cardcontainer {
+    width: calc(100% / 3);    
+    padding: 50px 15px 30px;
+}
+
+.business-subtitle {
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.business-description {
+    font-size: 19px;
+}
+
+.footer-dpbusiness {
+    margin: auto;
+    max-width: 55%;
+}
+
+.clients {
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+.view-clients {
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.anchordefault {
+    text-decoration: underline;
+    color: #0061FF;
+    font-size: 15px;
+}
+
+/* business footer */
+
+.partners {
+    width: 100%;
+    height: 640px;
+    display: flex;
+}
+
+.col33 {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+}
+
+.in-square { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-square img {
+    width: 50%;
+    height: 30%;
+}
+
+.bigsquare-container {
+    padding: 40px 40px;
+    background-color: #F5F5F5;
+    width: 640px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.logosquare {
+    width: 40%;
+}
+
+.hrsquare {
+    width: 85px;
+}
+
+.container-agency {
+    background-color: #B4D0E7;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col50text {
+    font-size: 30px;
 }
 
 
+/* faq */
 
+.faq {
+    width: 55%;
+    margin: auto;
+}
+
+.faqbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questionbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.arrow {
+    font-weight: bold;
+    padding-right: 20px;
+}
