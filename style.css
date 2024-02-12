@@ -103,6 +103,7 @@ a {
 .workplace-text i{
     font-size: 50px;
     margin-top: auto;
+
 }
 
 /* plan choice */
@@ -119,7 +120,86 @@ a {
 
 .payment {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.plan {
+    border: 1px solid lightgrey;
+}
+
+.cardbox .row > * {
+    padding: 0 25px;
+}
+
+.cardbox .row {
+    row-gap: 50px;
+}
+
+.plan .cardhead {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.plan .cardhead, 
+.plan .cardbody {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.plan .cardbody {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* in card */
+
+.titlecard {
+    padding-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rate {
+    font-size: 24px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.plandescription {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.cardsubtitle {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.buynow {
+    text-decoration: underline;
+    color: blue;
+}
+
+.underbutton {
+    margin-top: 20px;
+}
+
+
+
 /* dropbox-business */
 
 .business-container {
